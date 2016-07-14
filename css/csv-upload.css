@@ -1,0 +1,47 @@
+CHARSET "UTF-8";
+*{margin:0;padding:0;  }
+body{   
+  color: #4e443c;
+  background: #f0efe7; 
+  }
+#drag-area {
+  border: 4px dashed #bbb;
+  height: 300px; 
+  width: 75%;
+  margin: 20px auto;
+  background: #eae9e1;
+}
+   
+
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    padding: 1px 6px;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i] {
+    -webkit-appearance: push-button;
+    -webkit-user-select: none;
+    white-space: pre;
+}
+
+.yz{
+  width: 80%;
+  height: 280px;
+  background: url(arrow235.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin:auto; 
+}
